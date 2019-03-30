@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc2e06e-97d6-42ac-84d4-5acbe0cc522d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterfaceTesting/InterfaceTesting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterfaceTesting/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/BasicAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/IgnoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/PayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/SuiteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterfaceTesting/src/main/resources/suite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/BasicAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/BasicAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceTesting/target/classes/com/course/testng/BasicAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceTesting/target/classes/com/course/testng/BasicAnnotation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/InterfaceTesting/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,6 +18,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -31,21 +44,88 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/BasicAnnotation.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/SuiteConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/IgnoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#78#79#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/resources/suite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+              <folding>
+                <element signature="e#86#87#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/PayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+              <folding>
+                <element signature="e#82#83#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/BasicAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +148,11 @@
       <list>
         <option value="$PROJECT_DIR$/InterfaceTesting/pom.xml" />
         <option value="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/BasicAnnotation.java" />
+        <option value="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/PayTest.java" />
+        <option value="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/LoginTest.java" />
+        <option value="$PROJECT_DIR$/InterfaceTesting/src/main/resources/suite.xml" />
+        <option value="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/SuiteConfig.java" />
+        <option value="$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/IgnoreTest.java" />
       </list>
     </option>
   </component>
@@ -77,6 +162,28 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="InterfaceTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="InterfaceTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="InterfaceTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.testng:testng:6.10" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="31" />
@@ -140,48 +247,19 @@
               <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
               <item name="InterfaceTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="InterfaceTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="InterfaceTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="InterfaceTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="InterfaceTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testng" type="462c0819:PsiDirectoryNode" />
+              <item name="suite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
               <item name="InterfaceTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553938796786" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553943839742" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -213,8 +291,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BasicAnnotation">
-    <configuration name="BasicAnnotation" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.IgnoreTest">
+    <configuration name="BasicAnnotation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTesting" />
       <extension name="coverage">
         <pattern>
@@ -230,7 +308,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicAnnotation.testcase1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicAnnotation (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTesting" />
       <extension name="coverage">
         <pattern>
@@ -240,7 +318,49 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.course.testng" />
       <option name="MAIN_CLASS_NAME" value="com.course.testng.BasicAnnotation" />
-      <option name="METHOD_NAME" value="testcase1" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/ProjectCode/TestFramework/InterfaceTesting/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTesting" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/InterfaceTesting/src/main/resources/suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.IgnoreTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IgnoreTest.ignore1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.IgnoreTest" />
+      <option name="METHOD_NAME" value="ignore1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -250,8 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BasicAnnotation" />
-        <item itemvalue="TestNG.BasicAnnotation.testcase1" />
+        <item itemvalue="TestNG.IgnoreTest" />
+        <item itemvalue="TestNG.IgnoreTest.ignore1" />
+        <item itemvalue="TestNG.E:/ProjectCode/TestFramework/InterfaceTesting/src/main/resources/suite.xml" />
+        <item itemvalue="TestNG.BasicAnnotation (2)" />
+        <item itemvalue="TestNG.BasicAnnotation (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -265,38 +388,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553936431478</updated>
-      <workItem from="1553936439332" duration="2290000" />
+      <workItem from="1553936439332" duration="6579000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicAnnotation_testcase1 - 2019.03.30 at 17h 29m 33s.xml">
-      <configuration name="BasicAnnotation.testcase1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation_testcase1 - 2019.03.30 at 17h 32m 38s.xml">
-      <configuration name="BasicAnnotation.testcase1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation_testcase1 - 2019.03.30 at 17h 33m 37s.xml">
-      <configuration name="BasicAnnotation.testcase1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation_testcase1 - 2019.03.30 at 17h 34m 18s.xml">
-      <configuration name="BasicAnnotation.testcase1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation_testcase1 - 2019.03.30 at 17h 35m 04s.xml">
-      <configuration name="BasicAnnotation.testcase1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation - 2019.03.30 at 17h 36m 20s.xml">
+    <history-entry file="BasicAnnotation - 2019.03.30 at 17h 39m 50s.xml">
       <configuration name="BasicAnnotation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation - 2019.03.30 at 17h 37m 15s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="BasicAnnotation_(1) - 2019.03.30 at 17h 57m 45s.xml">
+      <configuration name="BasicAnnotation (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation - 2019.03.30 at 17h 38m 31s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="BasicAnnotation_(2) - 2019.03.30 at 18h 02m 53s.xml">
+      <configuration name="BasicAnnotation (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__ProjectCode_TestFramework_InterfaceTesting_src_main_resources_suite_xml - 2019.03.30 at 18h 43m 41s.xml">
+      <configuration name="E:/ProjectCode/TestFramework/InterfaceTesting/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__ProjectCode_TestFramework_InterfaceTesting_src_main_resources_suite_xml - 2019.03.30 at 18h 46m 12s.xml">
+      <configuration name="E:/ProjectCode/TestFramework/InterfaceTesting/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__ProjectCode_TestFramework_InterfaceTesting_src_main_resources_suite_xml - 2019.03.30 at 18h 48m 32s.xml">
+      <configuration name="E:/ProjectCode/TestFramework/InterfaceTesting/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__ProjectCode_TestFramework_InterfaceTesting_src_main_resources_suite_xml - 2019.03.30 at 18h 52m 12s.xml">
+      <configuration name="E:/ProjectCode/TestFramework/InterfaceTesting/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__ProjectCode_TestFramework_InterfaceTesting_src_main_resources_suite_xml - 2019.03.30 at 18h 53m 36s.xml">
+      <configuration name="E:/ProjectCode/TestFramework/InterfaceTesting/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IgnoreTest_ignore1 - 2019.03.30 at 18h 58m 25s.xml">
+      <configuration name="IgnoreTest.ignore1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IgnoreTest - 2019.03.30 at 18h 58m 36s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2290000" />
+    <option name="totallyTimeSpent" value="6579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -307,7 +436,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -317,17 +446,17 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2733189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Maven" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,6 +464,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.txt">
@@ -352,18 +485,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/BasicAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="350">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/PayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/suite/SuiteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTesting/src/main/java/com/course/testng/IgnoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
